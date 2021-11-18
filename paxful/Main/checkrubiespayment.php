@@ -3,9 +3,6 @@ error_reporting(0);
 if (isset($_GET['txRef'])) 
 {
 
-	//FLWPUBK-356774c41ed8b0a40c1df9e97d8f5c7b-X
-	//FLWSECK-94328c08778a1588e6b5f2796322bd50-X
-	//94328c08778ade8a89acb303
 	
 	function contains($haystack, $needle, $caseSensitive = false)
 	{
@@ -69,7 +66,7 @@ if (isset($_GET['txRef']))
 	}
 	
 	
-	$rubiesseckey = "SK-000087335-PROD-D6B45CD2ED7A4274A9E1321A647EE1BE4C2EE0D70EB74DB099DC82EF7AB102FE"; //your rubies 
+	$rubiesseckey = ""; //your rubies 
 	$rubiespubkey = "";
 	$account = $_GET['account'];
 	$ref = $_GET['txRef'];
