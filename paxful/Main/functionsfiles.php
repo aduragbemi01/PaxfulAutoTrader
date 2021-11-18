@@ -341,8 +341,8 @@
 	/* $btsellratewr = 450;
 	$btsellratebt = 453; */
 	$btsellratebt2 = $btsellratebt + 3;
-	$paxfulkey = 'cx7meGkOvX2Q3TBk6Kny7pZn8Z95KxHm';
-	$paxfulsecret = 'HtPZlXYmm0uU7SEAB69UqsWLtQqwdwAr';
+	$paxfulkey = '';
+	$paxfulsecret = '';
 	$ngncode = '103';
 	$myrcode = '100';
 	$usdcode = '144';
