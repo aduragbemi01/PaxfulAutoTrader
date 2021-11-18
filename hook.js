@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const port = 7000;
 const bodyParser = require('body-parser');
-const apiSecret = 'HtPZlXYmm0uU7SEAB69UqsWLtQqwdwAr';
+const apiSecret = '';
 
 app.use(bodyParser.urlencoded({
 	extended: true
